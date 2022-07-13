@@ -17,13 +17,9 @@ Let's not waste time, the pirate treasure awaits! Let's get to work.
 
 👤 **Axel soler**
 
-
-GitHub: [@AxelSoler](https://github.com/AxelSoler)
-
-LinkedIn: [Axel Soler](https://www.linkedin.com/in/axel-soler-685985232/)
-
-Twitter: [Axel Soler](https://twitter.com/AxelSoler18)
-
+- GitHub: [@AxelSoler](https://github.com/AxelSoler)
+- LinkedIn: [Axel Soler](https://www.linkedin.com/in/axel-soler-685985232/)
+- Twitter: [Axel Soler](https://twitter.com/AxelSoler18)
 
 👤 **Mariana Revilla Lérida**
 
