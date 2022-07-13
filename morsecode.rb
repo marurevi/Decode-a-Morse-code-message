@@ -32,9 +32,16 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  my_array = word.split(/ /, 2)
-  my_array.each { |i| print decode_char(i) }
+  my_array = word.split()
+  my_array.map { |i| decode_char(i) }.join()
 end
 
-puts decode_char '--..'
+def decode(string)
+  my_array = string.split('   ')
+  my_array.map { |word| decode_word(word) }.join(' ')
+end
+
+decode_char '--..'
 decode_word '-- -.--'
+decode("-- -.--   -. .- -- .")
+decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
