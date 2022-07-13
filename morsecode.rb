@@ -32,8 +32,8 @@ def decode_char(char)
 end
 
 def decode_word(word)
-  my_array = word.split()
-  my_array.map { |i| decode_char(i) }.join()
+  my_array = word.split
+  my_array.map { |i| decode_char(i) }.join
 end
 
 def decode(string)
@@ -43,5 +43,5 @@ end
 
 decode_char '--..'
 decode_word '-- -.--'
-decode("-- -.--   -. .- -- .")
-decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+decode('-- -.--   -. .- -- .')
+decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
